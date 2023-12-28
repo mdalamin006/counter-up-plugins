@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Meta link-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Name">
+    <meta name="description" content="About The Website ">
+    <meta name="keywords" content="Name Of Content">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="5 days">
+    <meta name="author" content="Md.Al-Amin">
+    <!--Meta link-->
+
+    <title>JS-JQ-Plugin</title>
+    <!-- Font Awesome Start -->
+
+
+    <!-- Font Awesome ENd -->
+    <!--Css link-->
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="vendor/wow/css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+    <div class="load">
+        <hr />
+        <hr />
+        <hr />
+        <hr />
+    </div>
+    <div class="container">
+
+        <section class="wow slideInDown" data-wow-duration="1s" data-wow-delay="1s">
+            <div class="row">
+                <h1>Counter Up Plugin:-</h1>
+                <!-- Counter Item  -->
+                <div class="col-lg-4">
+                    <div class="item text-center">
+                        <h3 class="counter">1,234,567.00</h3>
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                </div>
+
+                <!-- Counter Item  -->
+                <div class="col-lg-4">
+                    <div class="item text-center">
+                        <h3 class="counter">333.33</h3>
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                </div>
+                <!-- Counter Item  -->
+                <div class="col-lg-4">
+                    <div class="item text-center">
+                        <h3 class="counter">12345</h3>
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </section>
+        <section class="wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s">
+
+            <h3>Counter 360 :-</h3>
+
+            <div id="countdown"></div>
+        </section>
+        <hr>
+
+        <!-- Counter -->
+        <section class="wow zoomInDown" data-wow-duration="2s" data-wow-delay="3s">
+
+            <h3>Counte Me:-</h3>
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-2 ">
+                    <div class="bg-info card p-3">
+                        <h3 class="counterMe">666</h3>
+                        <p>Happy client</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="bg-info card p-3">
+                        <h3 class="counterMe1">9999</h3>
+                        <p>Project Compelete</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="bg-info card p-3">
+                        <h3 class="counterMe2">33333</h3>
+                        <p>Line Of code</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="countdown-container container">
+        <div class="clock row">
+
+            <!-- days -->
+            <div class="clock-item clock-days countdown-time-value col-sm-6 col-md-3">
+                <div class="wrap">
+                    <div class="inner">
+                        <div id="canvas_days" class="clock-canvas"></div>
+                        <div class="text">
+                            <p class="val">0</p>
+                            <p class="type-days type-time">DAYS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- hours -->
+
+            <div class="clock-item clock-hours countdown-time-value col-sm-6 col-md-3">
+                <div class="wrap">
+                    <div class="inner">
+                        <div id="canvas_hours" class="clock-canvas"></div>
+                        <div class="text">
+                            <p class="val">0</p>
+                            <p class="type-hours type-time">HOURS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- minutes -->
+            <div class="clock-item clock-minutes countdown-time-value col-sm-6 col-md-3">
+                <div class="wrap">
+                    <div class="inner">
+                        <div id="canvas_minutes" class="clock-canvas"></div>
+                        <div class="text">
+                            <p class="val">0</p>
+                            <p class="type-minutes type-time">MINUTES</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- seconds -->
+            <div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3">
+                <div class="wrap">
+                    <div class="inner">
+                        <div id="canvas_seconds" class="clock-canvas"></div>
+                        <div class="text">
+                            <p class="val">0</p>
+                            <p class="type-seconds type-time">SECONDS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--  Script -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="vendor/countdown/js/kinetic.js"></script>
+    <script src="vendor/countdown/jquery.final-countdown.min.js"></script>
+    <script src="vendor/wow/js/wow.min.js"></script>
+    <script src="vendor/counter/waypoints.min.js"></script>
+    <script src="vendor/counter/jquery.counterup.min.js"></script>
+    <script src="vendor/counter-360/js/jquery.countdown360.min.js"></script>
+    <script src="vendor/count-up-me/countMe.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <!--  Script End-->
+
+</body>
+
+</html>

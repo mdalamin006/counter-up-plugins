@@ -1,0 +1,10 @@
+.counter {
+  font-size: 60px;
+  color: brown;
+}
+
+.card {
+  box-shadow: 5px 4px 3px 4px rgba(179, 179, 179, 0.774);
+  border-radius: 20px;
+}
+
